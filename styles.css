@@ -1,3 +1,51 @@
-.Summary {
-    background-color: #f3a;
+body {
+    font-family: 'Roboto', sans-serif;    margin: 0;
+    height: 100%;
+    position:relative;
+    display:flex; 
+    flex-direction:column;
+    min-height: 100vh;
+}
+
+.summary {
+    background-color: #ec660e;
+    background-color:#164c70;
+    padding: 1em;
+}
+
+.projects{
+    background:white;
+    padding: 1em;
+    flex: 1 0 auto;
+}
+
+.card{
+    background: #3c4850;
+    padding:1em;
+    margin-top: 1em;
+}
+
+.contact {
+    padding: 1em;
+    background: #164c70;
+}
+.contact p{
+    position:relative;
+    display:inline;
+}
+p {
+    width:auto;
+    color: rgba(255, 255, 255, 0.692);
+    padding-right:1 em;
+} 
+
+h1,h2 {
+    color:rgba(255, 255, 255, 0.897);
+}
+.material-icons.md-18 { font-size: 32px; 
+color: lightgray;}
+
+span {
+    position: relative;
+    top: 0.3em;
 }
