@@ -1,5 +1,6 @@
 body {
-    font-family: 'Roboto', sans-serif;    margin: 0;
+    font-family: 'Roboto', sans-serif;    
+    margin: 0;
     height: 100%;
     position:relative;
     display:flex; 
@@ -37,6 +38,7 @@ p {
     width:auto;
     color: rgba(255, 255, 255, 0.692);
     padding-right:1 em;
+    line-height: 1.5;
 } 
 
 h1,h2 {
@@ -48,4 +50,21 @@ color: lightgray;}
 span {
     position: relative;
     top: 0.3em;
+}
+
+img {
+    float: left;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+    max-width: 300px;
+}
+
+#copywrite{
+    margin-right: 0;
+}
+@media screen and (min-width: 780px) {
+    .card{
+        height: 50vh;
+    }
 }
