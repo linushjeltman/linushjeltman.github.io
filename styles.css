@@ -26,18 +26,26 @@ body {
     margin-top: 1em;
 }
 
-.contact {
-    padding: 1em;
+footer{
     background: #164c70;
+    display: flex;
+    padding: 2em;
 }
-.contact p{
-    position:relative;
-    display:inline;
+
+.contact1 {
+    text-align: right;
+    width: 20%;
 }
+
+.contact2 {
+    text-align: left;
+    width: 80%;
+    padding-left: 1em;
+}
+
 p {
     width:auto;
     color: rgba(255, 255, 255, 0.692);
-    padding-right:1 em;
     line-height: 1.5;
 } 
 
@@ -63,6 +71,11 @@ img {
 #copywrite{
     margin-right: 0;
 }
+
+#text{
+    right: 100px;
+}
+
 @media screen and (min-width: 780px) {
     .card{
         height: 50vh;
